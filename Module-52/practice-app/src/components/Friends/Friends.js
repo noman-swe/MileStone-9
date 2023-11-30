@@ -8,7 +8,7 @@ const Friends = () => {
             .then(res => res.json())
             .then(data => setFriends(data))
     }, []);
-    console.log(friends);
+
     return (
         <div>
             <h2 className='text-6xl text-rose-400 mb-4'>Hii Friends!!</h2>

@@ -4,6 +4,7 @@ import Home from '../Home/Home';
 import Friends from '../Friends/Friends';
 import About from '../About/About';
 import NotFound from '../NotFound/NotFound';
+import FriendDetail from '../FriendDetail/FriendDetail';
 
 const MyRoute = () => {
     return (
@@ -11,6 +12,7 @@ const MyRoute = () => {
             <Routes>
                 <Route path='/' element={<Home></Home>}>Home</Route>
                 <Route path='/friends' element={<Friends></Friends>}>Friends</Route>
+                <Route path='/friend/:friendId' element={<Frien dDetail></FriendDetail>}>Friends</Route>
                 <Route path='/about' element={<About></About>}>About</Route>
                 <Route path='*' element={<NotFound></NotFound>}>About</Route>
             </Routes>
