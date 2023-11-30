@@ -11,7 +11,7 @@ const PostDetail = () => {
         .then(res => res.json())
         .then(data => setPost(data))
     }, [postId]);
-    console.log(post);
+
 
     return (
         <div>
