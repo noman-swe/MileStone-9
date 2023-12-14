@@ -1,0 +1,8 @@
+
+.meal-container {
+    /* background-color: yellowgreen; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 32px;
+    margin: 100px;
+}
