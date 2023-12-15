@@ -1,0 +1,9 @@
+.carted-product {
+    display: flex;
+    align-items: center;
+    padding-left: 140px;
+}
+
+img {
+    width: 50px;
+}
