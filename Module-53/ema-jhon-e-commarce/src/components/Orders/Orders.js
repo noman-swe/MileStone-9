@@ -8,8 +8,14 @@ import ReviewItem from '../ReviewItem/ReviewItem';
 const Orders = () => {
     const [products, setProducts] = useProducts();
     const [cart, setCart] = useCart(products);
-    console.log(cart);
-    console.log(products);
+
+    const handleRemoveProduct = clickedProduct => {
+        // console.log(clickedProduct);
+        const rest = cart.filter(product=> product.id !== clickedProduct.id);
+        setCart(rest);
+
+    }
+
     return (
         <div className='shop-container'>
             <div className="reviews-items-container">
@@ -17,6 +23,7 @@ const Orders = () => {
                     cart.map(product => <ReviewItem
                         product={product}
                         key={product.id}
+                        handleRemoveProduct={handleRemoveProduct}
                     ></ReviewItem>)
                 }
             </div>
