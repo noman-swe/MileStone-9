@@ -1,9 +1,25 @@
-.carted-product {
+.review-item {
     display: flex;
     align-items: center;
-    padding-left: 140px;
+    margin-top: 21px;
+    border: 1px solid #95a0a7;
+    border-radius: 8px;
+    padding: 8px;
+    width: 571px;
 }
 
 img {
-    width: 50px;
+    width: 91px;
+    /* height: 100px; */
+}
+
+.review-details p {
+    margin: 0px;
+}
+
+.review-item-details-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
