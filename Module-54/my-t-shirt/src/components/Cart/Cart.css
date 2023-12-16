@@ -15,7 +15,28 @@ p button{
 
 }
 
+.empty-cart-msg{
+    line-height: 15px;
+    background-color: rgb(198, 241, 110);
+    padding: 1px;
+    border-radius: 8px;
+}
+.empty-cart-msg p {
+    margin-top: -15px;
+}
 
 p button:hover{
     color: orange;
+}
+
+.add-more p{
+    font-weight: 500px;
+    background-color: rgb(240, 171, 171);
+    padding: 5px 0px;
+}
+.thanks{
+    color: rgb(199, 38, 38);
+}
+.orange{
+    background-color: orange;
 }
