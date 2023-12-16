@@ -2,3 +2,20 @@
     display: grid;
     grid-template-columns: 3fr 1fr;
 }
+.cart{
+    position: sticky;
+    top: 0;
+}
+
+p button{
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid ghostwhite;
+    font-weight: 500;
+
+}
+
+
+p button:hover{
+    color: orange;
+}

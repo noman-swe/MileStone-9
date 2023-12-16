@@ -4,7 +4,7 @@ import './TShirt.css';
 const TShirt = (props) => {
     const { tShirt, handleAddToCart } = props;
 
-    const {name, picture, price} = tShirt;
+    const { name, picture, price } = tShirt;
     return (
         <div className='t-shirt'>
             <img src={picture} alt="" />
@@ -14,7 +14,7 @@ const TShirt = (props) => {
                 </h3>
                 <p>Price: ${price}</p>
             </div>
-            <button>Add To Cart</button>
+            <button onClick={() => handleAddToCart(tShirt)}>Add To Cart</button>
         </div>
     );
 };
