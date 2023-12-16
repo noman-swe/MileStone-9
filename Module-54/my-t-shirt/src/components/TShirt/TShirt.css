@@ -1,0 +1,11 @@
+.t-shirt {
+    height: 500px;
+    width: 350px;
+    border: 1px solid gainsboro;
+
+}
+
+.t-shirt img {
+    height: 280px;
+    width: 280px;
+}
