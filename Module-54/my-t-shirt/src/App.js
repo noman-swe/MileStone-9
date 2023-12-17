@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
 import OrderReview from './components/OrderReview/OrderReview';
+import GrandPa from './components/GrandPa/GrandPa';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/orderRewview' element={<OrderReview></OrderReview>}></Route>
         <Route path='*' element={<Home></Home>}></Route>
+        <Route path='/grandpa' element={<GrandPa></GrandPa>}></Route>
       </Routes>
 
     </div>
