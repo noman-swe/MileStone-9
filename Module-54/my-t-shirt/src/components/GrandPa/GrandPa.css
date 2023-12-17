@@ -2,5 +2,29 @@
 .grandpa, .grandpa div {
     border: 2px solid goldenrod;
     padding: 5px;
-    margin: 10px;
+    margin: 5px 10px;
+    border-radius: 8px;
 }
+
+.houses{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.houses p{
+    padding: 2px 8px;
+    background-color: rgb(236, 197, 99);
+    border-radius: 3px;
+    margin-right: 20px;
+}
+
+.houses button {
+    background-color: rgb(240, 180, 31);
+    padding: 4px 8px;
+    border: 0px;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
