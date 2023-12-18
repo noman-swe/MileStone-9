@@ -18,7 +18,7 @@ const GrandPa = () => {
     const ornament = 'Dimond Ring';
     const dadarLathi = 'Lathii mere bati bondho kore dibo.'
     return (
-        <RingContext.Provider value={dadarLathi}>
+        <RingContext.Provider value={[dadarLathi, house, setHouse]}>
             <div className='grandpa'>
                 <h2>Grand Pa</h2>
                 <div className="houses">

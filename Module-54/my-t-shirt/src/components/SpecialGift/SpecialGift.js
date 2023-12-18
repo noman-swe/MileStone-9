@@ -9,7 +9,7 @@ const SpecialGift = ({ ornament }) => {
         <div>
             <h3>Special</h3>
             <p>Gift:{ornament}</p>
-            <p>Precius Gift: {ring}</p>
+            <p>Precious Gift: {ring}</p>
         </div>
     );
 };
