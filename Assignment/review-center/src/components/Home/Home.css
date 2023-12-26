@@ -1,0 +1,35 @@
+/* .reviews {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 34px;
+    margin: 100px;
+} */
+
+@media screen and (max-width: 720px) {
+    .home-banner {
+        display: block;
+        position: relative;
+        margin: 0 10px;
+    }
+
+    .banner-text-section {
+        position: absolute;
+        top: 500px;
+        left: 0;
+        
+    }
+
+    .banner-image {
+        position: absolute;
+        top: 0;
+    }
+
+    .coustomer-review-section {
+        position: absolute;
+        top: 900px;
+    }
+    .rev-text{
+        margin-top: 150px;
+        
+    }
+}

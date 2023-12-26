@@ -1,0 +1,15 @@
+
+.logo-image img{
+    width: 180px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+nav a:hover {
+    color: orange;
+}
