@@ -1,6 +1,9 @@
 .activity{
-    border: 2px solid goldenrod;
+    border: 2px solid goldenrod; 
     border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
 }
 .activity img{
     width: 200px;
