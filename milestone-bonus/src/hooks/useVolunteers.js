@@ -1,12 +1,14 @@
 import { useEffect, useState } from "react"
 
-const useVolunteers = () =>{
+const useVolunteers = () => {
     const [volunteers, setVolunteers] = useState([]);
-    useEffect( () =>{
+    useEffect(() => {
         fetch('data.json')
         .then(res => res.json())
-        .then(data => setVolunteers(data));
+        .then(data => setVolunteers(data))
     }, []);
-    return [volunteers, setVolunteers];
+
+    return([volunteers, setVolunteers]);
 }
+
 export default useVolunteers;

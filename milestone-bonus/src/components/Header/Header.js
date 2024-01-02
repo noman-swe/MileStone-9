@@ -5,8 +5,8 @@ import './Header.css';
 const Header = () => {
     return (
         <nav>
-            <Link to="/">Home</Link>
-            <Link to="/main">Main</Link>
+            <Link to="/">main</Link>
+            {/* <Link to="/main">Main</Link> */}
             <Link to="/volunteers">Volunteers</Link>
         </nav>
     );

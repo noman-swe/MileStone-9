@@ -7,8 +7,10 @@ const Activity = (props) => {
 
     return (
         <div className='activity'>
-            <img src={img} alt="" />
-            <h2>{title}</h2>
+            <div className="infos">
+                <img src={img} alt="" />
+                <h2>{title}</h2>
+            </div>
         </div>
     );
 };
